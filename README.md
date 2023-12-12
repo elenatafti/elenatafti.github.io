@@ -1,2 +1,0 @@
-# Elena Ashtari Tafti
-
