@@ -20,12 +20,13 @@
 
         nav {
             width: 20%;
-            min-width: 150px; /* Set a minimum width for the navigation panel */
+            min-width: 150px;
             background-color: #FEF5E7;
             padding: 10px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            position: fixed;
+            position: sticky;
+            top: 0;
             height: 100vh;
             overflow-y: auto;
         }
@@ -33,6 +34,8 @@
         main {
             width: 80%;
             margin-left: 20%;
+            box-sizing: border-box; /* Ensures padding and border are included in width */
+            padding: 10px;
         }
 
         p {
@@ -85,7 +88,7 @@
         }
 
         .side-by-side img {
-            max-width: 35%;
+            max-width: 100%;
             height: auto;
             border-radius: 8px;
             margin-right: 20px;
@@ -107,48 +110,53 @@
 
     <nav>
         <ul>
-            <li><a href="#research">Research Interests</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#research-interests">Research Interests</a></li>
+            <li><a href="#research">Research in Economics</a></li>
+            <li><a href="#other-research">Other Research</a></li>
             <li><a href="#contact">Contact Information</a></li>
         </ul>
     </nav>
 
     <main>
-<header>
-<h1>Elena Ashtari Tafti</h1>
-</header>
 
-<section class="side-by-side">
-<img src="image.jpg" alt="Description">
-<div class="content">
-<div class="line-spacing">
-<p>
-    My name is Elena Ashtari Tafti,<br>
-    I am an applied microeconomist working on topics at the intersection of innovation, health, and personnel economics. <br> 
-    In September 2023, I joined the Ludwig Maximilian University of Munich as an Assistant Professor in Economics. <br> 
-    I am a Ph.D. Scholar at the Institute of Fiscal Studies (IFS) and the Centre for Microdata Methods and Practice (CeMMAP). <br> 
-</p>
-</div>
-</div>
-</section>
+        <header id="about">
+            <h1>Elena Ashtari Tafti</h1>
+        </header>
 
-<section>
-<section id="education">
-<h2>Education</h2>
-<ul>
-<li>University College London, PhD Economics, 2023</li>
-<li>Bocconi University, Master of Science in Economic and Social Sciences, 2013</li>
-<li>Bocconi University, Bsc Economics, 2010</li>
-</ul>
-</section>
+        <section class="side-by-side">
+            <img src="image.jpg" alt="Description">
+            <div class="content">
+                <div class="line-spacing">
+                    <p>
+                        My name is Elena Ashtari Tafti,<br>
+                        I am an applied microeconomist working on topics at the intersection of innovation, health, and
+                        personnel economics. In September 2023, I joined the Ludwig Maximilian University of Munich as
+                        an Assistant Professor in Economics. I am a Ph.D. Scholar at the Institute of Fiscal Studies (IFS)
+                        and the Centre for Microdata Methods and Practice (CeMMAP).
+                    </p>
+                </div>
+            </div>
+        </section>
 
-<section>
-<h2>Research Interests</h2>
-<ul>
-<li>Applied Micro Economics</li>
-<li>Health Economics</li>
-<li>Personnel Economics</li>
-</ul>
-</section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>University College London, PhD Economics, 2023</li>
+                <li>Bocconi University, Master of Science in Economic and Social Sciences, 2013</li>
+                <li>Bocconi University, Bsc Economics, 2010</li>
+            </ul>
+        </section>
+
+        <section id="research-interests">
+            <h2>Research Interests</h2>
+            <ul>
+                <li>Applied Micro Economics</li>
+                <li>Health Economics</li>
+                <li>Personnel Economics</li>
+            </ul>
+        </section>
 
 <section>
 <section id="Research">
@@ -210,11 +218,11 @@ Room 350
 </p> 
 </section>
 
-<footer>
-<p>&copy; 2023 Elena Ashtari Tafti. All rights reserved.</p>
-</footer>
+            <p>&copy; 2023 Elena Ashtari Tafti. All rights reserved.</p>
+        </footer>
 
-</main>
+    </main>
 
 </body>
+
 </html>
