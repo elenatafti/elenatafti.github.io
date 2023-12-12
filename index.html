@@ -40,9 +40,6 @@ padding: 15px;
 border-radius: 5px; /* Add rounded corners to sections */
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 text-align: justify;
-display: flex;
-align-items: center;
-justify-content: space-around;
 }
 
 h2 {
@@ -63,18 +60,24 @@ margin-top: 20px;
 text-align: center;
 color: #888; /* Gray text color for the footer */
 }
-img {
-max-width: 40%;
-height: auto;
-display: block;
-margin: 0 auto;
-border-radius: 8px;
 
+.side-by-side {
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 100vh; /* Adjust as needed */
+background-color: #f4f4f4;
 }
 
-.content {
+.side-by-side .content {
 max-width: 600px;
 text-align: center;
+}
+
+.side-by-side img {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
 }
 
 </style>
@@ -85,10 +88,10 @@ text-align: center;
 <h1>Elena Ashtari Tafti</h1>
 </header>
 
-  <section>
+<section class="side-by-side">
     <div class="content">
-     <h2>About Me</h2>
-         <p>
+          <h2>About Me</h2>
+              <p>
     My name is Elena Ashtari Tafti,
 I am an applied microeconomist working on topics at the intersection of innovation, health, and personnel economics. 
 In September 2023 I joined the Ludwig Maximilian University of Munich as an Assistant Professor in Economics. 
@@ -97,6 +100,7 @@ I am a Ph.D. Scholar at the Institute of Fiscal Studies (IFS) and the Centre for
     </div>
 <img src="image.jpg" alt="Description">
   </section>
+
 
 <section>
 <h2>Education</h2>
