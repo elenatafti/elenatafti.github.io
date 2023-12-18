@@ -9,12 +9,12 @@
   --font-semi-bold: 600;
   --font-bold: 700;
   /*===== Colores =====*/
-  --first-color: #725ac1;      /* Deep Purple-Blue */
-  --first-color-dark: #5a4c8d; /* Dark Purple-Blue */
-  --first-color-darken: #4f439f; /* Darkened Purple-Blue */
-  --text-color: #6f42c1;       /* Purple */
-  --first-color-light: #c5b4e3; /* Light Purple-Blue */
-  --first-color-lighten: #d1c6eb; /* Lightened Purple-Blue */
+--first-color: #001f3f;       /* Navy Blue */
+--first-color-dark: #001225;  /* Dark Navy Blue */
+--first-color-darken: #001525; /* Darkened Navy Blue */
+--text-color: #001f3f;        /* Navy Blue (same as base) */
+--first-color-light: #336699;  /* Light Navy Blue */
+--first-color-lighten: #4d94ff; /* Lightened Navy Blue */
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
   --h1-font-size: 1.5rem;
