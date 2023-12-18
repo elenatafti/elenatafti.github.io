@@ -9,11 +9,11 @@
   --font-semi-bold: 600;
   --font-bold: 700;
   /*===== Colores =====*/
-  --first-color: #ffecd1; /* Pastel green */
-  --first-color-dark: #78290f; /* Darker pastel green */
+  --first-color: #ffecd1; 
+  --first-color-dark: #78290f;
   --first-color-darken: #fca311; 
-  --text-color: #14213d; /* Dark green text color */
-  --first-color-light: #e5e5e5; /* Light pastel green */
+  --text-color: #14213d;
+  --first-color-light: #e5e5e5;
   --first-color-lighten: #FFFFFF; 
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
