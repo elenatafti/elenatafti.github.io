@@ -11,10 +11,10 @@
   /*===== Colores =====*/
 --first-color: #5B859B;       /* Navy Blue */
 --first-color-dark: #001225;  /* Dark Navy Blue */
---first-color-darken: #001525; /* Darkened Navy Blue */
+--first-color-darken: #14213d ; /* Darkened Navy Blue */
 --text-color: #001f3f;        /* Navy Blue (same as base) */
---first-color-light: #EAF0F3;  /* Light Navy Blue */
---first-color-lighten: #B3BBBF; /* Lightened Navy Blue */
+--first-color-light:#FFEFD5; 
+--first-color-lighten: #B3BBBF;
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
   --h1-font-size: 1.5rem;
