@@ -63,6 +63,14 @@ body {
   line-height: 1.6;
 }
 
+main {
+text-align: justify;
+flex: 1;
+margin-left: 20px;  /* Adjust the left margin as needed */
+margin-right: 20px; /* Adjust the right margin as needed */
+margin: 10px;
+}
+
 h1, h2, h3, p {
   margin: 0;
 }
