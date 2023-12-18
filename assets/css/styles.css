@@ -147,7 +147,7 @@ img {
   position: fixed;
   top: 0;
   left: -100%;
-  width: 90%;
+  width: 80%;
   height: 100vh;
   padding: 3rem;
   display: flex;
@@ -212,8 +212,8 @@ img {
 }
 
 .home__img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -224,7 +224,7 @@ img {
 }
 
 .home__img img {
-  width: 145px;
+  width: 200px;
 }
 
 .home__title {
@@ -297,6 +297,7 @@ img {
 
 .about__text {
   margin-bottom: var(--mb-4);
+  text-align: justify;
 }
 
 .about__img {
