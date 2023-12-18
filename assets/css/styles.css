@@ -56,19 +56,11 @@ html {
 body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
-  font-size: 0.875em;
+  font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   background-color: var(--first-color-lighten);
   color: var(--text-color);
-  line-height: 1.8;
-}
-
-main {
-text-align: justify;
-flex: 1;
-margin-left: 20px;  /* Adjust the left margin as needed */
-margin-right: 20px; /* Adjust the right margin as needed */
-margin: 10px;
+  line-height: 1.6;
 }
 
 h1, h2, h3, p {
@@ -95,12 +87,11 @@ img {
 /*===== CLASS CSS ===== */
 .section {
   padding: 4rem 0 2rem;
-  margin-bottom: 2rem;
 }
 
 .section-title {
   font-size: var(--h1-font-size);
-  color: var(--first-color-dark);
+  color: var(--first-color);
   margin-bottom: var(--mb-3);
   text-align: center;
 }
@@ -147,7 +138,7 @@ img {
   position: fixed;
   top: 0;
   left: -100%;
-  width: 80%;
+  width: 90%;
   height: 100vh;
   padding: 3rem;
   display: flex;
@@ -161,7 +152,7 @@ img {
   top: 1rem;
   right: 1rem;
   font-size: 2rem;
-  color: var(--first-color-light);
+  color: var(--first-color-dark);
   cursor: pointer;
 }
 
@@ -212,12 +203,12 @@ img {
 }
 
 .home__img {
-  width: 250px;
-  height: 250px;
+  width: 160px;
+  height: 160px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background-color: #FFFFFF ;
+  background-color: var(--first-color);
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: var(--mb-2);
@@ -297,7 +288,6 @@ img {
 
 .about__text {
   margin-bottom: var(--mb-4);
-  text-align: justify;
 }
 
 .about__img {
@@ -326,7 +316,7 @@ img {
 
 .about__information-icon {
   font-size: 1.5rem;
-  color: var(--first-color-dark);
+  color: var(--first-color);
   margin-right: var(--mb-4);
 }
 
@@ -468,7 +458,7 @@ img {
   padding: 1.5rem .5rem;
   border: 2px solid var(--first-color);
   border-radius: .5rem;
-  text-align: justify;
+  text-align: center;
 }
 
 .services__content:hover {
@@ -557,13 +547,12 @@ img {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: rgba(204, 75, 44, 0.7);
   border-radius: .5rem;
   transition: .3s;
-   font-size: var(--small-font-size);
 }
 
 .works__link {
