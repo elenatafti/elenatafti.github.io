@@ -95,6 +95,7 @@ img {
 /*===== CLASS CSS ===== */
 .section {
   padding: 4rem 0 2rem;
+  margin-bottom: 2rem;
 }
 
 .section-title {
