@@ -100,7 +100,7 @@ img {
 
 .section-title {
   font-size: var(--h1-font-size);
-  color: var(--first-color);
+  color: var(--first-color-dark);
   margin-bottom: var(--mb-3);
   text-align: center;
 }
@@ -326,7 +326,7 @@ img {
 
 .about__information-icon {
   font-size: 1.5rem;
-  color: var(--first-color);
+  color: var(--first-color-dark);
   margin-right: var(--mb-4);
 }
 
