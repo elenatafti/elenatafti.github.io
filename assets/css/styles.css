@@ -208,7 +208,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background-color: var(--first-color);
+  background-color: #FFFFFF ;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: var(--mb-2);
