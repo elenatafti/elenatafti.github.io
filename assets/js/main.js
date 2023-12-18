@@ -1,39 +1,53 @@
-/*==================== MENU SHOW Y HIDDEN ====================*/
+*===== MENU SHOW Y HIDDEN =====*/
 
+const navMenu = document.getElementById('nav-menu'),
+    toggleMenu = document.getElementById('nav-toggle'),
+    closeMenu = document.getElementById('nav-close')
 
-/*===== MENU SHOW =====*/
-/* Validate if constant exists */
+// SHOW
+toggleMenu.addEventListener('click', ()=>{
+    navMenu.classList.toggle('show')
+})
 
+// HIDDEN
+closeMenu.addEventListener('click', ()=>{
+    navMenu.classList.remove('show')
+})
 
-/*===== MENU HIDDEN =====*/
-/* Validate if constant exists */
+/*===== ACTIVE AND REMOVE MENU =====*/
+const navLink = document.querySelectorAll('.nav__link');   
 
+function linkAction(){
+  /*Remove menu mobile*/
+  navMenu.classList.remove('show')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction));
 
-/*==================== REMOVE MENU MOBILE ====================*/
+/*===== SCROLL SECTIONS ACTIVE LINK =====*/
+const sections = document.querySelectorAll('section[id]')
 
+function scrollActive(){
+    const scrollY = window.pageYOffset
 
-/*==================== ACCORDION SKILLS ====================*/
+    sections.forEach(current =>{
+        const sectionHeight = current.offsetHeight
+        const sectionTop = current.offsetTop - 50;
+        sectionId = current.getAttribute('id')
 
+        if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active')
+        }else{
+            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active')
+        }
+    })
+}
 
-/*==================== QUALIFICATION TABS ====================*/
+window.addEventListener('scroll', scrollActive)
 
-
-/*==================== SERVICES MODAL ====================*/
-
-
-/*==================== PORTFOLIO SWIPER  ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
-
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
-
-
-/*==================== CHANGE BACKGROUND HEADER ====================*/ 
-
-
-/*==================== SHOW SCROLL UP ====================*/ 
-
-
-/*==================== DARK LIGHT THEME ====================*/ 
+/*==================== SHOW SCROLL TOP ====================*/ 
+function scrollTop(){
+    const scrollTop = document.getElementById('scroll-top');
+    // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
+    if(this.scrollY >= 560) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollTop)
