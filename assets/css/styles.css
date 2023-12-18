@@ -9,12 +9,12 @@
   --font-semi-bold: 600;
   --font-bold: 700;
   /*===== Colores =====*/
-  --first-color: #CC4B2C;
-  --first-color-dark: #662616;
-  --first-color-darken: #290F09;
-  --text-color: #54423D;
-  --first-color-light: #EAE7E6;
-  --first-color-lighten: #FFFAFA;
+   --first-color: #4CAF50; /* Green shade */
+  --first-color-dark: #388E3C; /* Darker green shade */
+  --first-color-darken: #1B5E20; /* Even darker green shade */
+  --text-color: #2E7D32; /* Dark green text color */
+  --first-color-light: #C8E6C9; /* Light green shade */
+  --first-color-lighten: #E8F5E9; /* Even lighter green shade */
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
   --h1-font-size: 1.5rem;
