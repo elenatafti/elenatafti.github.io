@@ -60,7 +60,7 @@ body {
   font-weight: var(--font-medium);
   background-color: var(--first-color-lighten);
   color: var(--text-color);
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 main {
@@ -557,12 +557,13 @@ img {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   background: rgba(204, 75, 44, 0.7);
   border-radius: .5rem;
   transition: .3s;
+   font-size: var(--small-font-size);
 }
 
 .works__link {
