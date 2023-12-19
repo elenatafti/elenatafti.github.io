@@ -212,7 +212,7 @@ img {
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: var(--mb-2);
-  border: 2px solid orange; 
+  border: 2px solid #001225; 
 }
 
 .home__img img {
