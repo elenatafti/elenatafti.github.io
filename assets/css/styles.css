@@ -288,7 +288,8 @@ img {
 }
 
 .about__text {
-  margin-bottom: var(--mb-4);
+ margin-bottom: var(--mb-4);
+ text-align: justify;
 }
 
 .about__img {
