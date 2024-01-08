@@ -13,8 +13,8 @@
 --first-color-dark: #154360;  
 --first-color-darken: #154360 ; 
 --text-color: #001f3f;     
---first-color-light:#EFD9CE; 
---first-color-lighten: #EFD9CE;
+--first-color-light:#FFEBCD; 
+--first-color-lighten: #FFEBCD;
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
   --h1-font-size: 1.5rem;
