@@ -459,7 +459,7 @@ img {
   padding: 1.5rem .5rem;
   border: 2px solid var(--first-color);
   border-radius: .5rem;
-  text-align: center;
+  text-align: justify ;
 }
 
 .services__content:hover {
