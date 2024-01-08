@@ -9,12 +9,12 @@
   --font-semi-bold: 600;
   --font-bold: 700;
   /*===== Colores =====*/
---first-color: #AA1E38;       
---first-color-dark: #001225;  
---first-color-darken: #14213d ; 
+--first-color: #CEA2AC;       
+--first-color-dark: #25283D;  
+--first-color-darken: #25283D ; 
 --text-color: #001f3f;     
---first-color-light:#fffdd0; 
---first-color-lighten: #fffdd0;
+--first-color-light:#EFD9CE; 
+--first-color-lighten: #EFD9CE;
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
   --h1-font-size: 1.5rem;
