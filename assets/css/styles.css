@@ -9,12 +9,12 @@
   --font-semi-bold: 600;
   --font-bold: 700;
   /*===== Colores =====*/
---first-color: 	#0090ab;       
---first-color-dark: #095786;  
---first-color-darken: #095786 ; 
---text-color: #312a21;     
---first-color-light:	#f6ede4; 
---first-color-lighten: 	#f6ede4;
+  --first-color: #CC4B2C;
+  --first-color-dark: #662616;
+  --first-color-darken: #290F09;
+  --text-color: #54423D;
+  --first-color-light: #EAE7E6;
+  --first-color-lighten: #FFFAFA;
   /*===== Font and typography =====*/
   --body-font: 'Garamond', serif;
   --h1-font-size: 1.5rem;
