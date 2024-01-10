@@ -9,14 +9,14 @@
   --font-semi-bold: 600;
   --font-bold: 700;
   /*===== Colores =====*/
---first-color: #1F618D;       
---first-color-dark: #1F618D;  
---first-color-darken: #154360 ; 
---text-color: #001f3f;     
---first-color-light:#FFEBCD; 
---first-color-lighten: #FFEBCD;
+--first-color: 	#0090ab;       
+--first-color-dark: #095786;  
+--first-color-darken: #095786 ; 
+--text-color: #312a21;     
+--first-color-light:	#f6ede4; 
+--first-color-lighten: 	#f6ede4;
   /*===== Font and typography =====*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Garamond', serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
