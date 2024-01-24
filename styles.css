@@ -295,3 +295,13 @@ pre {
   margin-right: var(--mb-4);
 }
 
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: var(auto);
+  margin-right: var(auto);
+}
+
