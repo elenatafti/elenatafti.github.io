@@ -11,10 +11,10 @@
   /*===== Colores =====*/
   --first-color: #CC4B2C;
   --first-color-dark: #662616;
-  --first-color-darken: #290F09;
-  --text-color: #54423D;
-  --first-color-light: #EAE7E6;
-  --first-color-lighten: #FFFAFA;
+  --first-color-darken: #000000;
+  --text-color: #000000;
+  --first-color-light: #ffffff ;
+  --first-color-lighten: #ffffff ;
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
   --h1-font-size: 1.5rem;
@@ -212,7 +212,7 @@ img {
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: var(--mb-2);
-  border: 2px solid #154360; 
+  border: 2px solid #000000; 
 }
 
 .home__img img {
