@@ -1,120 +1,214 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<title>Elena Ashtari Tafti</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elena Ashtari Tafti</title>
+  <style>
+    :root {
+      --text: #222;
+      --muted: #666;
+      --border: #e6e6e6;
+      --link: #1a73e8;
+      --bg: #ffffff;
+      --max: 900px;
+    }
 
-<link rel="stylesheet" href="styles.css">
+    * { box-sizing: border-box; }
 
-  
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MTZQ72YSEB"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.65;
+    }
 
-gtag('config', 'G-MTZQ72YSEB');
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65546321-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-65546321-1');
-</script>    <!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
 
-ga('create', 'UA-65546321-1', 'auto');
-ga('send', 'pageview');
-</script>
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 48px 24px 72px;
+    }
+
+    .site-header {
+      text-align: center;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 36px;
+    }
+
+    .site-header img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin: 0 0 8px;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .contact {
+      margin-top: 18px;
+      color: var(--muted);
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    .cv-link {
+      margin-top: 14px;
+      display: inline-block;
+      font-weight: 600;
+    }
+
+    section {
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin: 0 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    .paper {
+      margin-bottom: 26px;
+    }
+
+    .paper-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .paper-meta,
+    .paper-coauthors,
+    .paper-notes {
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .paper-notes {
+      margin-top: 8px;
+      padding-left: 18px;
+    }
+
+    .paper-notes li {
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 28px 16px 48px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .contact a {
+        display: block;
+        margin: 8px 0;
+      }
+    }
+  </style>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTZQ72YSEB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MTZQ72YSEB');
+    gtag('config', 'UA-65546321-1');
+  </script>
 </head>
 <body>
-<div class="wrapper">
-<header>
-<h1>Elena Ashtari Tafti</h1>
-<p class="view"><img src="image.jpg" width=270 height=270></p>
-<p>Assistant Professor <br> Ludwig Maximillian University</p>
-<h3>
-  <p class="view"><a download="" href="CV_ElenaAshtariTafti.pdf">CV</a></p>
-</h3>
-<h3><p class="view"><a href="">e.ashtaritafti@gmail.com</a></p></h3>
-<h3><p class="view"><a href="">e.tafti@lmu.de</a></p></h3>
-</header>
+  <main class="page">
+    <header class="site-header">
+      <img src="image.jpg" alt="Portrait of Elena Ashtari Tafti">
+      <h1>Elena Ashtari Tafti</h1>
+      <p class="subtitle">Assistant Professor of Economics, Ludwig Maximilian University of Munich</p>
+      <div class="contact">
+        <a href="mailto:e.ashtaritafti@gmail.com">e.ashtaritafti@gmail.com</a>
+        <a href="mailto:e.tafti@lmu.de">e.tafti@lmu.de</a>
+      </div>
+      <a class="cv-link" href="CV_ElenaAshtariTafti.pdf" download>Academic CV</a>
+    </header>
 
+    <section>
+      <h2>About</h2>
+      <p>
+        I am an applied microeconomist working on topics at the intersection of innovation,
+        health, and personnel economics. In September 2023, I joined the Ludwig Maximilian
+        University of Munich as an Assistant Professor in Economics.
+      </p>
+      <p>
+        I am also a Ph.D. Scholar at the Institute for Fiscal Studies (IFS) and the Centre for
+        Microdata Methods and Practice (CeMMAP).
+      </p>
+    </section>
 
-</div><section class="about section" id="about">
-<h2 class="section-title">About Me</h2>
-<div class="about__container bd-grid">
+    <section>
+      <h2>Research</h2>
 
-<div class="about__data">
-<p class="about__text">My name is Elena Ashtari Tafti, <br>
-I am an <span class="orange-text">applied microeconomist</span> working on topics at the intersection of innovation, health, and personnel economics.
-In September 2023, I joined the Ludwig Maximilian University of Munich as an Assistant Professor in Economics. <br>
-I am a Ph.D. Scholar at the Institute of Fiscal Studies (IFS) and the Centre for Microdata Methods and Practice (CeMMAP).</p>
-</div>
+      <article class="paper">
+        <div class="paper-title">Technology, Skills, and Performance: The Case of Robots in Surgery</div>
+        <ul class="paper-notes">
+          <li>NBER Economics of Health Meeting, 2023</li>
+          <li>Winner, Essen Health Economics Conference Best Paper Award</li>
+          <li>Featured on <a href="https://www.thevisiblehand.uk/episodes/episode-50">The Visible Hand Podcast</a></li>
+          <li>Featured on <a href="https://faculti.net/technology-skills-and-performance-the-case-of-robots-in-surgery/">Faculti</a></li>
+          <li><a href="Robots_Ashtari_Jun24.pdf" download>Latest draft</a></li>
+        </ul>
+      </article>
 
-<div>
-<div class="about__information">
-<h2 class="section-title">Research</h2>
+      <article class="paper">
+        <div class="paper-title">Does Contact Time Matter for Patient Outcomes?</div>
+        <div class="paper-coauthors">With David C. Chan, Jonathan Gruber, and Stephenson Strobel</div>
+      </article>
 
-<div class="about__information-data">
-<h3><span>Technology, Skills, and Performance:The Case of Robots in Surgery</span></h3>
-</div>
+      <article class="paper">
+        <div class="paper-title">Killer Deals? The Impact of Hospital Mergers on Hospital Quality</div>
+        <ul class="paper-notes">
+          <li><a href="Killer_Deals_2022.pdf" download>Latest draft</a></li>
+        </ul>
+      </article>
 
-<div class="about__information-data">
-<ul>
-<li><span class="section-subtitle"> NBER Economics of Health Meeting 2023</span></li>
-<li><span class="section-subtitle">Winner of Essen Health Economics Conference Best Paper Award</span></li>
-<li><span class="section-subtitle">Featured on the Visible Hand Podcast <a
-href="https://www.thevisiblehand.uk/episodes/episode-50" 	;">link</a></span></li>
-<li><span class="section-subtitle">Featured on Faculti <a
-href="https://faculti.net/technology-skills-and-performance-the-case-of-robots-in-surgery/"	;">link</a></span></li> 
-<li><span class="section-subtitle"><a download=""  href="Robots_Ashtari_Jun24.pdf" ;">latest draft</a></span></li> 
-</ul>
-</div>
-
-<div class="about__information-data">
-<h3><span> Does Contact Time Matter for Patient Outcomes?  </span></h3><br>
-</div>
-<div class="about__data">
-<p class="about__text" style="text-align:right;"><em>  with David C. Chan, Jonathan Gruber, and Stephenson Strobel  </em></p>
-</div>
-
-
-<div class="about__information-data">
-<h3><span>Killer Deals? the Impact of Hospital Mergers on Hospital Quality</span></h3>
-</div>
-
-<div class="about__information-data">
-<ul>
-<li><span class="section-subtitle"><a download=""  href="Killer_Deals_2022.pdf" ;">latest draft</a></span></li> 
-</ul>
-</div>
-
-<div class="about__information-data">
-<h3><span> Gender, Careers, and Peers' Gender Mix  </span></h3><br>
-</div>
-<div class="about__data">
-<p class="about__text" style="text-align:right;"><em> with Mimosa Distefano and Tanya Surovtseva</em> </p>
-</div>
-
-
-
-  
-</div>
-</div>
-</section>
-
-  
+      <article class="paper">
+        <div class="paper-title">Gender, Careers, and Peers' Gender Mix</div>
+        <div class="paper-coauthors">With Mimosa Distefano and Tanya Surovtseva</div>
+      </article>
+    </section>
+  </main>
 </body>
-  
+</html>
